@@ -18,11 +18,11 @@ In the app/ folder you find a more complete server architecture. This is a WIP b
 * node app/app.js (runs on localhost:2000)
 
 The most flushed out part of the api so far is the "cats":
-###GET /cats
-###PUT /cats/new
+####GET /cats
+####PUT /cats/new
 	looks for header values: 
 		- type - String
 		- name - String
 		- gender - String
-###GET /cats/[id]
-###GET /cats/name/[name]
+####GET /cats/[id]
+####GET /cats/name/[name]
