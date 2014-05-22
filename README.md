@@ -15,7 +15,7 @@ In the app/ folder you find a more complete server architecture. This is a WIP b
 ##To run app.js (inside of app/)
 * if on root level - cd app
 * npm install (uses package.json)
-* node app/app.js (runs on localhost:2000)
+* node app/app.js (runs on localhost:3200)
 
 The most flushed out part of the api so far is the "cats":
 ####GET /cats
