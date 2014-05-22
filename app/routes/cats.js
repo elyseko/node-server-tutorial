@@ -8,7 +8,7 @@ router.get('/', function(req, res) {
 });
 
 /* PUT new cat. */
-router.put('/new', function(req, res){
+router.push('/new', function(req, res){
 	// console.log(req);
   var cat = {
   	gender: req.headers.gender,
